@@ -1,0 +1,16 @@
+name: Excavator
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 */6 * * *'
+jobs:
+  excavate:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ScoopInstaller/GithubActions@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
