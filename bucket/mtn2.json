@@ -1,13 +1,13 @@
 {
-    "version": "0.4.6",
+    "version": "0.4.7",
     "description": "Dual-panel file manager in the spirit of DOS Navigator and Far Manager, with a built-in ConPTY terminal, SFTP and plugins",
     "homepage": "https://github.com/Laex/MTN2",
     "license": "MPL-2.0",
     "notes": "MTN2 can also update itself (menu: Updates...). With Scoop, prefer 'scoop update mtn2'; turn off the startup check in Updates... if you do not want the program to look for releases on its own.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Laex/MTN2/releases/download/v0.4.6/MTN2-v0.4.6-win64.zip",
-            "hash": "63f9f65b8e77122bd46736c6b74fa361378c72cf1395b15fb2a206c5d3bab552"
+            "url": "https://github.com/Laex/MTN2/releases/download/v0.4.7/MTN2-v0.4.7-win64.zip",
+            "hash": "5577dd9072b413e1251be838a02689cbb6b9b45413485d29cd51596112026849"
         }
     },
     "shortcuts": [
